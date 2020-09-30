@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './main/App';
 import Main2 from './Components/Template/Main/Main2';
+import Atualizar from './Components/Template/Main/Atualizar'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Switch>
           <Route path="/" exact={true} component={App} />
           <Route path="/Main2" component={Main2} />
+          <Route path="/Atualizar" component={Atualizar} />
       </Switch>
     </ BrowserRouter>
   </React.StrictMode>,

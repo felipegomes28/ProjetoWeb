@@ -30,7 +30,7 @@ export default class Main2 extends Component {
     }
 
     render() {
-        const { animais } = this.state;
+        const { animais } = this.state
 
         return (
             <React.Fragment>
@@ -39,8 +39,7 @@ export default class Main2 extends Component {
                     <div class="list">
                         <h1>ANIMAIS CADASTRADOS</h1>
                         <div className="tabela">
-                            <Table animais={animais} remover={animais}/>
-
+                            <Table animais={animais}/>
                         </div>
                         <Link to="/">
                             <button id="Inicio">Página Principal</button>
@@ -51,4 +50,16 @@ export default class Main2 extends Component {
             </React.Fragment>
         )
     }
+
+    load(animais){
+        this.setState({animais})
+    }
+    
+    remover =({animais}) =>{
+        axios.delete(`${api.baseURL}/${animais.id}`).then(resp =>{
+            const list = this.state.list.filter(a => a !== animais)
+            this.setState({list})
+        })
+    }
+
 }
