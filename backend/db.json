@@ -11,6 +11,30 @@
       "name": "caramelo",
       "raca": "vira-lata",
       "tipo": "Cachorro"
+    },
+    {
+      "id": 3,
+      "name": "popo",
+      "raca": "Siames",
+      "tipo": "Gato"
+    },
+    {
+      "id": 4,
+      "name": "Tom",
+      "raca": "vira lata",
+      "tipo": "Gato"
+    },
+    {
+      "id": 5,
+      "name": "Lilica",
+      "raca": "Dalmata",
+      "tipo": "Cachorro"
+    },
+    {
+      "id": 6,
+      "name": "Lola",
+      "raca": "Dalmata",
+      "tipo": "Cachorro"
     }
   ]
 }

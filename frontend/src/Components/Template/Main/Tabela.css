@@ -1,0 +1,35 @@
+th, td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(13, 87, 225);
+}
+
+th {
+    background-color: rgb(13, 87, 225);
+    color: white;
+    border-radius: 3px;
+  }
+
+.button2 {
+    margin-top: -15px;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 8px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(13, 87, 225);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+  }
+  
+.button2:hover {background-color: rgb(13, 87, 225)}
+  
+.button2:active {
+    background-color: rgb(13, 87, 225);
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }

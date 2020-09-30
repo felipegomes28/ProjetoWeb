@@ -30,4 +30,12 @@
     height:340px;
     text-align: center;
     border-radius: 20px;
+    overflow: scroll;
+}
+
+#Inicio{
+    display: flex;
+    margin-top: 355px;
+    margin-left: 400px;
+    border-radius: 5px;
 }
