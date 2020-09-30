@@ -1,7 +1,16 @@
 {
-    "users":[{
-        "id":1,
-        "nome": "",
-        "raca": ""
-    }]
+  "animais": [
+    {
+      "id": 1,
+      "name": "buma",
+      "raca": "rottweiler",
+      "tipo": "Cachorro"
+    },
+    {
+      "id": 2,
+      "name": "caramelo",
+      "raca": "vira-lata",
+      "tipo": "Cachorro"
+    }
+  ]
 }
